@@ -1,0 +1,56 @@
+/*menu*/
+header {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  background: rgba(66,66,66,1) 0;
+}
+
+header #header-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+}
+
+header .logo {
+  font-size: xx-large;
+  color: #F58220;
+}
+
+header nav.nav-menu ul {
+  display: flex;
+  gap: 2rem;
+}
+
+header .nav-menu li {
+  color: #fff;
+  position: relative;
+}
+
+header .nav-menu li:hover {
+  color: #F58220;
+}
+
+header .nav-menu li .hover-menu {
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+  gap: 1rem;
+  padding: 1.5rem 0 0.5rem 0;
+  background: rgba(66,66,66,1) 0;
+  border-radius: 0 0 0.5rem 0.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+header .nav-menu li:hover > .hover-menu {
+  display: flex;
+}
+
+
+
+
+
